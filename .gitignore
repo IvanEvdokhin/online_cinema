@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/vendor/
+
+# Environment
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# Build
+frontend/dist/
+backend/public/build/
+backend/public/hot/
+
+# Database
+backend/database/database.sqlite
+
+# Storage & logs
+backend/storage/*.key
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+!backend/storage/**/.gitignore
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# PHP
+.phpunit.result.cache
